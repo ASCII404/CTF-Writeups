@@ -23,10 +23,16 @@ You're going to see the following line:
 
 We assume that `-e` stands for encode and `-d` for decode.
 
-By checking the pw.txt file we can see something which seems to be encoded in base64.
+By checking the **pw.txt** file we can see something which seems to be **encoded in base64**.
 > 6008014f6008014f6008014f6008014f
 
 4. Run `python3 -d flag.text.en`
-# picoCTF{s4n1ty_v3r1f13d_f28ac910}
+
+
+A message is going to be prompted such as: 
+>Please enter the password:
+
+In which you are going to put that **64base encoded** text we saw in the **pw.txt**
+# picoCTF{4p0110_1n_7h3_h0us3_6008014f}
 
 
