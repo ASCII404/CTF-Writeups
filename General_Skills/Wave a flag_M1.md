@@ -1,6 +1,10 @@
-# picoCTF Python Wrangling
+# picoCTF Wave a flag
 
-In order to solve this challenge you don't really need to know python, just how to use the terminal.
+I got 2 solutions for this challenge, this writeup is the first solution.
+
+Both solutions work, pick whatever you feel like using.
+
+Second solution:[Wave a flag_M2.md](https://pages.github.com/)
 > Python scripts are invoked kind of like programs in the Terminal...
 
 | Commands used  | 
