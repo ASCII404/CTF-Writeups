@@ -4,7 +4,7 @@ I got 2 solutions for this challenge, this writeup is the first solution.
 
 Both solutions work, pick whatever you feel like using.
 
-Second solution:[Wave a flag_M2.md](https://pages.github.com/)
+Second solution:[Wave a flag_M2.md](https://github.com/ASCII404/CTF-Writeups/blob/main/General_Skills/Wave%20a%20flag_M2.md)
 > Python scripts are invoked kind of like programs in the Terminal...
 
 | Commands used  | 
