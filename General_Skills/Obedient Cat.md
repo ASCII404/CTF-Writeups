@@ -10,12 +10,11 @@ This is the first challenge on the picoCTF site at general skills, the file has 
 
 # Method of approach
 
-1. Download the file with wget:
+1. Download the file with wget or by other means:
 >  `wget https://mercury.picoctf.net/static/2d24d50b4ebed90c704575627f1f57b2/flag
 `
-
-2. Locate the file in any way you want.
-3. Use `cat <filename>` to see file content
+2. Locate the file.
+3. Use `cat <filename>` to see file content.
 
 # picoCTF{s4n1ty_v3r1f13d_f28ac910}
 
