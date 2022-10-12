@@ -1,6 +1,6 @@
 # picoCTF PW Crack 1
 
-This is the first challenge from a total of 5 same others. 
+This is the first challenge from a total of other 5 similar CTFs. Requires basic python knowledge.
 
 Think about them as levels, even though you don't need to complet them in order,
 it helps to get through them with little steps.
