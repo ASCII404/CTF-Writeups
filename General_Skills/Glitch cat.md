@@ -7,6 +7,7 @@ Quite interesting, you need to have basic python knowledge or at least know how 
 | ------------- | 
 | [netcat](https://www.geeksforgeeks.org/netcat-basic-usage-and-overview/?ref=lbp)  | 
 | python3 | 
+| touch |
 
 **You can check your python version with `python3 -V`.**
 
