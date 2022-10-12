@@ -20,7 +20,7 @@ You can check your python version with `python3 -V`
 2. Locate the files, both must be in the same directory. 
 3. Check the content of the python file with `cat`
 4. Look through the file for a clue.
-5. Find the statement:
+5. Find the following lines:
 
 `user_pw = input("Please enter correct password for flag: ")`<br>
 `if( user_pw == "1e1a")`
@@ -29,7 +29,7 @@ As you can see, the required input is stored in `user_pw` which it is verified i
 
 Then we can assume that the required password for the flag is **1e1a**.
 
-6.Run the script with `python3 level1.py`
+6. Run the script with `python3 level1.py`
 7. Use the password found in the script.
 
 # picoCTF{545h_r1ng1ng_fa343060}
