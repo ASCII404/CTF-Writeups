@@ -1,40 +1,32 @@
 # picoCTF Bases
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+In order to solve this problem you have to know how bases look.
+> What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
 
 
 | Commands used  | 
 | ------------- | 
-|  | 
-|  | 
+| echo | 
+| base64 | 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+As you can see in the commands used, I've used base64 command to find the flag as the word is base64 encoded.
 
 # Method of approach
 
-1. Download the file with wget or by other means:
->  `wget `
-2. 
-3. 
+1. Copy the word or you can write it later.
+2. Use the command `echo`.
+3. Pipe it with `base64`.
 
+The final command should look something like this:
 
+`echo bDNhcm5fdGgzX3IwcDM1 | base64 -d`
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+The answer is going to be printed on your terminal or if you want to print in to a file just do:
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+`echo bDNhcm5fdGgzX3IwcDM1 | base64 -d > out_file.txt`
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+[More info about pipe](https://linuxhint.com/linux-pipe-command-examples/)
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# picoCTF{Lorem ipsum dolor sit amet}
+# picoCTF{l3arn_th3_r0p35}
 
 
