@@ -30,7 +30,7 @@ The code should look something like this:
 
 ![Python script modified](https://github.com/ASCII404/CTF-Writeups/blob/main/General_Skills/PW%20Crack/pwcrack3.png)
 
-Obviously, you could make it in a manner that would not ask you for input and it will display your flag but I didn't care about those things, I just wanted the flag.
+Obviously, you could make it in a manner that would not ask you for input and it will only display your flag but I didn't care about those things, I did the first thing it came to my mind xD.
 
 7. After you get the password, run the script again and use the password you obtained. **The password should be: 4b17**
 
