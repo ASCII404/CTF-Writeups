@@ -29,6 +29,7 @@ You can check your python version with `python3 -V`
 The code should look something like this:
 
 ![Python script modified](https://github.com/ASCII404/CTF-Writeups/blob/main/General_Skills/PW%20Crack/pwcrack5.png)
+[See the python script](https://github.com/ASCII404/CTF-Writeups/blob/main/General_Skills/PW%20Crack/level5.py)
 
 # picoCTF{m45h_fl1ng1ng_2b072a90}
 
