@@ -49,7 +49,7 @@ Now, total_cost = -2089967296, therefore your account balance is going to look l
 
 4. Connect to the server with `nc`
 >  `nc jupiter.challenges.picoctf.org 44566`
-5. Try to buy a fake flag in order to change the account balance
+5. Try to buy a fake flag in order to change the account balance.
 6. Number of flags desired should be over 2450000 and under something like 4000000 but idk, just go for the lower limit.
 7. Now after the balance is changed, buy again a flag but buy the 1337 flag.
 
