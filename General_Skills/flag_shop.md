@@ -1,7 +1,6 @@
 # picoCTF flag_shop.md
 
-4000000
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+This challenge requires a little knowledge about C and sign rules.
 > There's a flag shop selling stuff, can you buy a flag?
 
 
@@ -50,22 +49,8 @@ Now, total_cost = -2089967296, therefore your account balance is going to look l
 
 4. Connect to the server with `nc`
 >  `nc jupiter.challenges.picoctf.org 44566`
-5. 
-6. 
+5. Try to buy a fake flag in order to change the account balance
+6. Number of flags desired should be over 2450000 and under something like 4000000 but idk, just go for the lower limit.
+7. Now after the balance is changed, buy again a flag but buy the 1337 flag.
 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# picoCTF{Lorem ipsum dolor sit amet}
+# picoCTF{m0n3y_bag5_68d16363}
