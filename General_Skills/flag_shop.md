@@ -16,11 +16,14 @@ Learn more about C data types. [Click here](https://www.tutorialspoint.com/cprog
 
 When checking the source file you can see how the balance is modified and by what is modified.
 
-In order to change your account balance, you need to modify it by overflowing the variable.
+In order to change your account balance, you need to modify it by using a negative number.
+How are we going to do that? 
+
+By using the [two complement](https://en.wikipedia.org/wiki/Two%27s_complement)
 
 First of all you need to look up what kind of data type your variable is.
 
-You have a `int` which goes from `-2,147,483,648 to 2,147,483,647`
+You have a `int` which is a signed integer and goes from `-2,147,483,648 to 2,147,483,647`.
 
 And your account balance is modified by the following code:
 
@@ -37,7 +40,7 @@ if(number_flags > 0){
 ```
 
 So, if your total_cost > account_balance, then it won't enter the if condition. How can we solve that?
-By making it so large that it goes negative. Why? Because it will be positive when the account balance is calculated.
+By using the **two complement** so it goes negative. Why? Because it will be positive when the account balance is calculated.
 
 For example:
 
