@@ -40,7 +40,8 @@ if(number_flags > 0){
 ```
 
 So, if your total_cost > account_balance, then it won't enter the if condition. How can we solve that?
-By using the **two complement** so it goes negative. Why? Because it will be positive when the account balance is calculated.
+By using the **two complement** so it goes negative and it will still enter the condition as you provided a valid positive value
+for the quantity of flags.
 
 For example:
 
